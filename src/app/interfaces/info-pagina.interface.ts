@@ -12,3 +12,10 @@ export interface InfoPagina{
         equipo_trabajo?: any[];
 
 }
+export interface InfoFirebase {
+        frase?: string;
+        nombre?: string;
+        subtitulo?: string;
+        twitter?: string;
+        url?: string;
+      }
